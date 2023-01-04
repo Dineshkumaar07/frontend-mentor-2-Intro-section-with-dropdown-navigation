@@ -16,7 +16,7 @@ const Header = () => {
         console.log(active)
     }
   return (
-    <div className={active?'overflow-hidden':'overflow-auto'}>
+    
     <div className='flex justify-between  items-center text-dimgray font-epilogue px-6 '>
         <div>
             <img src={logo} alt="logo" />
@@ -92,7 +92,7 @@ const Header = () => {
         <MenuItems toggle={toggle} active= {active} />
 
     </div>
-    </div>
+    
   )
 }
 
